@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Davetiyemiz</title>
+<style>
+body{
+margin:0;
+text-align:center;
+background:#000;
+}
+img{
+width:100%;
+max-width:800px;
+}
+button{
+position:fixed;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+padding:15px 25px;
+font-size:18px;
+background:#ffffff;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<img src="davet.jpg">
+
+<audio id="muzik" src="muzik.mp3"></audio>
+
+<button onclick="document.getElementById('muzik').play()">
+🎵 Müziği Başlat
+</button>
+
+</body>
+</html>
